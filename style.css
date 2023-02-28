@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   display: flex;
@@ -14,4 +18,21 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
+}
+
+.bg {
+  background: url(20220430_131656.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100vw + 60px);
+  z-index: -1;
+  filter: blur(0px);
+  height: calc(100vh + 60px);
+}
+
+.loading-text {
+  font-size: 5rem;
+  color: darkorange;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.3);
 }
